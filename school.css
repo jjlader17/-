@@ -1,0 +1,73 @@
+.nowCheck {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+.dataNow {
+    border: 1px solid#add;
+    padding: 12px;
+    text-align: left;
+}
+.upload {
+    background:rgb(102, 114, 153);
+    color:black;
+    padding: 26px;
+    border-radius: 10px;
+    height: 100px;
+}
+.upload:hover {
+    background:rgb(26, 46, 109);
+}
+.title {
+    color: rgb(26, 46, 109);
+    font-size: 30px;
+    text-align: center;
+    border: 5px dashed;
+}
+[href] {
+    color: rgb(26, 46, 109);
+}
+.every {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: rgb(102, 114, 153);
+}
+p {
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+footer {
+    background-color: gray;
+    padding: 20px;
+    border-top: 5px dashed rgb(0, 0, 0);
+    text-align: right;
+}
+main section {
+    margin: 20px;
+}
+textarea {
+    width: 100%;
+}
+nav {
+    max-width: 100px;
+    background-color: gray;
+    border: 5px double rgb(26, 46, 109);
+    padding: 5px;
+    text-align: center;
+}
+h3 {
+    margin: 0px;
+}
+main section ol li {
+    margin-top: 20px;
+}
+hr {
+    margin: 10px;
+}

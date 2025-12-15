@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="postcenter" content="width=device-width, initial-scale=1.0">
+ <title>남산고 자율 게시판</title>
+ <link rel="stylesheet" href="school.css">
+</head>
+<body>
+
+    <header class="hello">
+    <img
+    src="https://dgns.dge.hs.kr/upload/dgnsh/logo/img_691eveba0=2fvde=4ev20=90vc4=bc48v388bv4b5c_v7172.png"
+    alt="학교 로고" class="logo">
+    <h1 class="title"><strong>남산고 자율 게시판</strong></h1>
+    </header>
+    <nav class="turn">
+        <h3>---목차---</h3>
+        <p><a href ="#oneGrade">1학년</a></p>
+        <p><a href ="#twoGrade">2학년</a></p>
+        <p><a href ="#threeGrade">3학년</a></p>
+    </nav>
+    <main>
+    <ul>
+    <section>
+    <li><h2 id="oneGrade">1학년 게시판</h2></li>
+        <ol>
+            <li>학습(국영수) 게시판</li>
+            <div class="upload"></div>
+            <li>학습(기타 과목) 게시판</li>
+            <div class="upload"></div>
+            <li>자유 게시판</li>
+            <div class="upload"></div>
+        </ol>   
+    <hr>
+    <label for="write1">1학년 게시판에 글 올리기</label>
+    <form action="#oneGrade" method="post">
+        <select id="selectPost">
+            <option value="kem"> 학습(국영수) 게시판</option>
+            <option value="other"> 학습(기타) 게시판</option>
+            <option value="free"> 자유 게시판 </option>
+        </select>
+        <br>
+        <div>
+            <textarea id="write1" rows="5" cols="50"
+            maxlength="100" minlength="1" placeholder="1~100자"></textarea>
+        <br>
+        <button type="submit">제출</button>
+        </div>
+    </form>
+    </section>
+    <section>
+    <li><h2 id="twoGrade">2학년 게시판</h2></li>
+    <ol>
+            <li>학습(국영수) 게시판</li>
+            <div class="upload"></div>
+            <li>학습(기타 과목) 게시판</li>
+            <div class="upload"></div>
+            <li>자유 게시판</li>
+            <div class="upload"></div>
+    </ol> 
+    <hr>
+    <label for="write2">2학년 게시판에 글 올리기</label>
+    <form action="#twoGrade" method="post">
+        <div>
+        <select id="selectPost">
+            <option value="kem"> 학습(국영수) 게시판</option>
+            <option value="other"> 학습(기타) 게시판</option>
+            <option value="free"> 자유 게시판 </option>
+        </select>
+        <br>
+        <textarea id="write2" rows="5" cols="50"
+        maxlength="100" minlength="1" placeholder="1~100자"></textarea>
+        <br><button type="submit">제출</button>
+        </div>
+    </form>
+    </section>
+    <section>
+    <li><h2 id="threeGrade">3학년 게시판</h2></li>
+    <ol>
+            <li>학습(국영수) 게시판</li>
+            <div class="upload"></div>
+            <li>학습(기타 과목) 게시판</li>
+            <div class="upload"></div>
+            <li>자유 게시판</li>
+            <div class="upload"></div>
+    </ol> 
+    <hr>
+    <label for="write3">3학년 게시판에 글 올리기</label>
+    <form action="#threeGrade" method="post">
+        <div>
+        <select id="selectPost">
+            <option value="kem"> 학습(국영수) 게시판</option>
+            <option value="other"> 학습(기타) 게시판</option>
+            <option value="free"> 자유 게시판 </option>
+        </select>
+        <br>
+        <textarea id="write3" rows="5" cols="50"
+        maxlength="100" minlength="1" placeholder="1~100자"></textarea><br>
+        <button type="submit">제출</button>
+    </div>
+    </form>
+    </section>
+    </ul>
+    </main>
+    <aside>
+    <h2>게시판 현황</h2>
+    <table class="nowCheck">
+    <thead>
+        <tr>
+            <th class="dataNow">학년</th>
+            <th class="dataNow">게시글</th>
+            <th class="dataNow">최근 게시글</th>
+            <th class="dataNow">평균 댓글 수</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="dataNow">1학년</td>
+            <td class="dataNow">30</td>
+            <td class="dataNow">5</td>
+            <td class="dataNow">15</td>
+        </tr>
+        <tr>
+            <td class="dataNow">2학년</td>
+            <td class="dataNow">30</td>
+            <td class="dataNow">5</td>
+            <td class="dataNow">15</td>
+        </tr>
+        <tr>
+            <td class="dataNow">3학년</td>
+            <td class="dataNow">30</td>
+            <td class="dataNow">5</td>
+            <td class="dataNow">15</td>
+        </tr>
+    </tbody>
+    </table>
+    </aside>
+    <footer><a href=https://dgns.dge.hs.kr/dgnsh/main.do>대구 남산고 홈페이지</a>    
+    <a href="#top">맨 위로 이동</a></footer>
+
+</body>
+</html>

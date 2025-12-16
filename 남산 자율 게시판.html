@@ -13,6 +13,7 @@
     src="https://dgns.dge.hs.kr/upload/dgnsh/logo/img_691eveba0=2fvde=4ev20=90vc4=bc48v388bv4b5c_v7172.png"
     alt="학교 로고" class="logo">
     <h1 class="title"><strong>남산고 자율 게시판</strong></h1>
+    <h2 class="hellohello" id="helloMessage">helloMessage</h2>
     </header>
     <nav class="turn">
         <h3>---목차---</h3>
@@ -117,27 +118,35 @@
     <tbody>
         <tr>
             <td class="dataNow">1학년</td>
-            <td class="dataNow">30</td>
-            <td class="dataNow">5</td>
-            <td class="dataNow">15</td>
+            <td class="dataNow" id="po1">30</td>
+            <td class="dataNow" id="cu1">5</td>
+            <td class="dataNow" id="co1">15</td>
         </tr>
         <tr>
             <td class="dataNow">2학년</td>
-            <td class="dataNow">30</td>
-            <td class="dataNow">5</td>
-            <td class="dataNow">15</td>
+            <td class="dataNow" id="po2">30</td>
+            <td class="dataNow" id="cu2">5</td>
+            <td class="dataNow" id="co2">15</td>
         </tr>
         <tr>
             <td class="dataNow">3학년</td>
-            <td class="dataNow">30</td>
-            <td class="dataNow">5</td>
-            <td class="dataNow">15</td>
+            <td class="dataNow" id="po3">30</td>
+            <td class="dataNow" id="cu3">5</td>
+            <td class="dataNow" id="co3">15</td>
         </tr>
     </tbody>
     </table>
     </aside>
     <footer><a href=https://dgns.dge.hs.kr/dgnsh/main.do>대구 남산고 홈페이지</a>    
     <a href="#top">맨 위로 이동</a></footer>
-
+    <script>
+        let username = "나남산";
+        let usergrade = 1;
+        let writingNow= null;
+        let userclass = 1;
+        let helloMessage = `남산고 ${usergrade}학년 ${userclass}반 ${username}님 안녕하세요!!`;
+        document.getElementById('helloMessage').innerHTML=helloMessage;
+    </script>
 </body>
+
 </html>
